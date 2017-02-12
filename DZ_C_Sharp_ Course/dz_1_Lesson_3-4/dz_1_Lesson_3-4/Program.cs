@@ -11,10 +11,10 @@ namespace dz_1_Lesson_3_4
         static void Main(string[] args)
         {
             Console.WriteLine("Please, enter three marks: ");
-            int firstMark, secondMark, thirdMark;
-            firstMark = int.Parse(Console.ReadLine());
-            secondMark = int.Parse(Console.ReadLine());
-            thirdMark = int.Parse(Console.ReadLine());
+            float firstMark, secondMark, thirdMark;
+            firstMark = float.Parse(Console.ReadLine());
+            secondMark = float.Parse(Console.ReadLine());
+            thirdMark = float.Parse(Console.ReadLine());
 
             Console.WriteLine("The first mark is: "+firstMark);
             Console.WriteLine("The second mark is: "+secondMark);
