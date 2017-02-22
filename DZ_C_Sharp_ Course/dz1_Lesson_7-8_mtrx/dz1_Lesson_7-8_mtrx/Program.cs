@@ -16,7 +16,7 @@ namespace dz1_Lesson_7_8_mtrx
             Console.WriteLine("Enter strings and rows");
             n = int.Parse(Console.ReadLine());
             Console.WriteLine("The quantity of strings : " + n + "\n" + "The quantity of rows : " + n);
-            int[,] matrix = new int[n,n ];
+            int[,] matrix = new int[n,n];
             Console.WriteLine("Enter the matrix");
             for (int i=0; i<n; i++)
             { for (int j=0; j<n; j++)
