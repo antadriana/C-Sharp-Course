@@ -10,8 +10,13 @@ namespace Lesson_14_15
     {
         static void Main(string[] args)
         {
-            Person p = new Person();
-            p.
+            Employee e1 = new Employee(4252, "gsdyh", 34,"sdkh", 56);
+            e1.IncAge();
+            e1.PrintInfo();
+            e1.companyCar = new Car("audi", 4);
+
+            e1.companyCar.PrintInfo();
+           
         }
     }
 }

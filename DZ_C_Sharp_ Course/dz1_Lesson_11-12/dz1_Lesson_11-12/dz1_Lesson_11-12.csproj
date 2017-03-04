@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D4227DFF-E719-4AF5-9752-65AC94CE4952}</ProjectGuid>
+    <ProjectGuid>{9B197E25-A1E0-4C95-96D7-1479E2DE2F3C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lesson_14_15</RootNamespace>
-    <AssemblyName>Lesson_14-15</AssemblyName>
+    <RootNamespace>dz1_Lesson_11_12</RootNamespace>
+    <AssemblyName>dz1_Lesson_11-12</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Car.cs" />
-    <Compile Include="Employee.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="House.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
