@@ -16,7 +16,11 @@ namespace dz1_Lesson_13_14
            {
            marks[i] = int.Parse(Console.ReadLine());
          }
-            Console.WriteLine("Enter The number of marks");
+
+   Student person1 = new Student("Andrew", "Lviv",marks );
+            person1.PrintInfo();
+
+            Console.WriteLine("\nEnter The number of marks ");
             int m = int.Parse(Console.ReadLine());
             int[] marks2 = new int[m];
             for (int i = 0; i < m; i++)
@@ -24,13 +28,9 @@ namespace dz1_Lesson_13_14
                 marks2[i] = int.Parse(Console.ReadLine());
             }
 
-
-
-            Student person1 = new Student("Andrew", "Lviv",marks );
-            person1.PrintInfo();
-
-
             Student person2 = new Student("Katy", "Lviv", marks2);
+            int[] tmp = person2.Marks;
+            tmp[0] = 412;
             person2.PrintInfo();
         }
     }

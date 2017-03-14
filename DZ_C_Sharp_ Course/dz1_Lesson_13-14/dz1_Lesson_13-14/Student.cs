@@ -39,7 +39,11 @@ namespace dz1_Lesson_13_14
         {
             this.pib = pib;
             this.address = address;
-
+            //this.marks = new int[marks.Length];
+            //for (int i=0; i<marks.Length; i++)
+            //{
+            //    this.marks[i] = marks[i];
+            //}
             this.marks = marks;
                 CalcAvg();
 
